@@ -1,5 +1,5 @@
  // Function to add WFS Layer with configurable options
- function addWfsLayer({ wfsUrl, layerName, fieldName, color, fillOpacity }) {
+ function addWfsStyling({ wfsUrl, layerName, fieldName, color, fillOpacity }) {
     var wfsParams = {
         service: 'WFS',
         version: '2.0.0',
